@@ -1,0 +1,14 @@
+button {
+    border-radius: 8px;
+    width: 10em;
+    height: 10em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+img {    
+    width: 9em; 
+    height: 9em;
+} 
