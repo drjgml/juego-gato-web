@@ -11,7 +11,7 @@ function turnoUsuario(button){
     //setear imagen
     button.innerHTML = '<img src="./img/'+tUsuario+'.webp">';
 
-    let positionsList = getPoitionsList(button.id.split(""));
+    let positionsList = getPositionsList(button.id.split(""));
     setearTurno(positionsList[0], positionsList[1], tUsuario);
 
 }
@@ -36,7 +36,7 @@ function getPositions(button){
     return button.id.split("");
 }*/
 
-function getPoitionsList(positionsList){    
+function getPositionsList(positionsList){    
     positionsList[0] = parseInt(positionsList[0]);
     positionsList[1] = parseInt(positionsList[1]);
 
